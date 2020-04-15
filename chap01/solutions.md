@@ -7,7 +7,7 @@
     * 提供一个可扩展的机器：Extended Machine
 2. 从下往上视角：
     * 管理IO等系统资源：Resource Manager
-
+>
 
 **2. In Section 1.4, nine different types of operating systems are described. Give a list of applications for each of these systems (one per operating systems type).**
 
@@ -30,7 +30,7 @@
     * 远程手术、操作机器
 9. 智能卡OS：
     * 电子支付芯片
-
+>
 
 **3. What is the difference between timesharing and multiprogramming systems?**
 
@@ -38,6 +38,6 @@
 1. 多道程序系统：允许用户同时允许多个**程序**
 2. 分时系统：允许多个**用户**通过终端同时访问和使用计算机
 3. 分时系统一定是多道程序系统，反之不一定，即多道程序系统不一定是分时系统（一台计算机只允许一个用户使用）
-
+>
 
 
