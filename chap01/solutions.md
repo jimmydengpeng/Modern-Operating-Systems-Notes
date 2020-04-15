@@ -37,8 +37,8 @@
 
 **4. To use cache memory, main memory is divided into cache lines, typically 32 or 64 bytes long. An entire cache line is cached at once. What is the advantage of caching an entire line instead of a single byte or word at a time?**
 
->1. 经验证明，内存访问符合访问**局部性原则**（principle of locality of reference），即对某已访问内存附近位置的访问概率也很高，特别是对其后续内存。所以缓存整行可大大提高对其后续内存的**高速缓存命中**（cache hit）的概率。
->2. 其次，相比单个字节或字，现代计算机硬件能更快地将内存块转换为32或64字节的**高速缓存行**（cache line）
+>1. 经验证明，内存访问符合**访问局部性原则**（principle of locality of reference），即对某已访问内存附近位置的访问概率也很高，特别是对其后续内存。所以缓存整行可大大提高对其后续内存的**高速缓存命中**（cache hit）的概率。
+>2. 其次，相比单个字节或字，现代计算机硬件能更快地将内存块转换为32或64字节的**高速缓存行**（cache line）。
 
 
 
