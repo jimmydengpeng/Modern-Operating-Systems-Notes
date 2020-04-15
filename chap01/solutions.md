@@ -34,10 +34,10 @@
 
 **3. What is the difference between timesharing and multiprogramming systems?**
 
->
+```
 1. 多道程序系统：允许用户同时允许多个**程序**
 2. 分时系统：允许多个**用户**通过终端同时访问和使用计算机
 3. 分时系统一定是多道程序系统，反之不一定，即多道程序系统不一定是分时系统（一台计算机只允许一个用户使用）
->
+```
 
 
