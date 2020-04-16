@@ -51,13 +51,10 @@
 >存在。如英特尔酷睿系列处理器，使用一致架构，区别在于价格和性能。
 
 **8. One reason GUIs were initially slow to be adopted was the cost of the hardware need- ed to support them. How much video RAM is needed to support a 25-line × 80-row character monochrome text screen? How much for a 1200 × 900-pixel 24-bit color bit- map? What was the cost of this RAM at 1980 prices ($5/KB)? How much is it now?**
-
-$$kqe=123\times221214$$
-
-$$25\times80=2000$$字节
-$1024\times768\times24=2359296$字节
-1. $2359296\div1000\div5=472$ 美元 $\approx3336$ RMB
->1. $0.0885$ RMB
+>1. $25\times80=2000$ 字节
+>2. $1024\times768\times24=2359296$ 字节
+>3. $2359296\div1000\div5=472$ 美元 $\approx3336$ RMB
+>4. $0.0885$ RMB
 
 **9. There are several design goals in building an operating system, for example, resource utilization, timeliness, robustness, and so on. Give an example of two design goals that may contradict one another.**
 >* 公平性与实时性：
@@ -69,7 +66,18 @@ $1024\times768\times24=2359296$字节
 >* 用户态：只能使用机器指令的一个子集。
 >* 用户程序运行在用户态可以防止其访问那些影响机器控制或IO操作的指令。
 >
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+
+**11. A 255-GB disk has 65,536 cylinders with 255 sectors per track and 512 bytes per sec- tor. How many platters and heads does this disk have? Assuming an average cylinder seek time of 11 ms, average rotational delay of 7 msec and reading rate of 100 MB/sec, calculate the average time it will take to read 400 KB from one sector.**
+>* 磁头：$255\times2^{30}\div(255\times512\times65536\times2)=16$
+>* 盘片：$16\div2=8$
+>* $11+7+400\div100=22 ms$
+
+**12. Which of the following instructions should be allowed only in kernel mode?
+(a) Disable all interrupts.
+(b) Read the time-of-day clock.
+(c) Set the time-of-day clock. 
+(d) Change the memory map.**
+>(a), (c), (d).
 
 
 
