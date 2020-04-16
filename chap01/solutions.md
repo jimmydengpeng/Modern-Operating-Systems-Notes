@@ -65,6 +65,8 @@ $1024\times768\times24=2359296$字节
 >* 内核态：OS对硬件有完全访问权，能利用硬件的所有功能，CPU能执行指令集中的每条指令
 >* 用户态：只能使用机器指令的一个子集。
 >* 用户程序运行在用户态可以防止其访问那些影响机器控制或IO操作的指令。
+>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 
 
 
