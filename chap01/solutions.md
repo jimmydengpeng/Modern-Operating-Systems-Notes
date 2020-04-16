@@ -51,10 +51,10 @@
 >存在。如英特尔酷睿系列处理器，使用一致架构，区别在于价格和性能。
 
 **8. One reason GUIs were initially slow to be adopted was the cost of the hardware need- ed to support them. How much video RAM is needed to support a 25-line × 80-row character monochrome text screen? How much for a 1200 × 900-pixel 24-bit color bit- map? What was the cost of this RAM at 1980 prices ($5/KB)? How much is it now?**
->* $$25\times80=2000$$字节
->* $1024\times768\times24=2359296$字节
->* $2359296\div1000\div5=472$ 美元 $\approx3336$ RMB
->* $0.0885$ RMB
+$$25\times80=2000$$字节
+$1024\times768\times24=2359296$字节
+1. $2359296\div1000\div5=472$ 美元 $\approx3336$ RMB
+>1. $0.0885$ RMB
 
 **9. There are several design goals in building an operating system, for example, resource utilization, timeliness, robustness, and so on. Give an example of two design goals that may contradict one another.**
 >* 公平性与实时性：
